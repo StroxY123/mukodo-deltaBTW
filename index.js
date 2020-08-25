@@ -201,7 +201,7 @@ if (message.content.toLowerCase().startsWith(prefix + "helpme")) {
        .setTitle('ThePresidentsOfficial: ') 
        .addField("<:Twitch:746715654635126804> Twitch ","**https://www.twitch.tv/thepresidentsofficial**")
        .setColor("#a503fc")
-       message.channel.send(embed).then(async msg => {
+       message.author.send(embed).then(async msg => {
         message.delete();
         return;})
         }
@@ -214,7 +214,7 @@ if (message.content.toLowerCase().startsWith(prefix + "helpme")) {
            .setTitle('ThePresidentsOfficial: ') 
            .addField("<:insta:747575592618295296> Instagram ","**https://www.youtube.com/channel/UCIvCn5nrGoH0SK3miJ_tUDg?view_as=subscriber**")
            .setColor("#f0ff00")
-           message.channel.send(embed).then(async msg => {
+           message.author.send(embed).then(async msg => {
             message.delete();
             return;})
             }
@@ -227,7 +227,7 @@ if (message.content.toLowerCase().startsWith(prefix + "helpme")) {
                .setTitle('ThePresidentsOfficial: ') 
                .addField("<:Youtube:746715734570172578> Youtube ","**https://www.youtube.com/channel/UCIvCn5nrGoH0SK3miJ_tUDg?view_as=subscriber**")
                .setColor("#ab2e2e")
-               message.channel.send(embed).then(async msg => {
+               message.author.send(embed).then(async msg => {
                 message.delete();
                 return;})
                 }
@@ -240,7 +240,7 @@ if (message.content.toLowerCase().startsWith(prefix + "helpme")) {
                    .setTitle('ThePresidentsOfficial: ') 
                    .addField("<:twitter:747575123208568983> Twitter ","**https://twitter.com/s_thepresident**")
                    .setColor("#00b4d5")
-                   message.channel.send(embed).then(async msg => {
+                   message.author.send(embed).then(async msg => {
                     message.delete();
                     return;})
                     }
@@ -253,7 +253,7 @@ if (message.content.toLowerCase().startsWith(prefix + "helpme")) {
                        .setTitle('ThePresidentsOfficial: ') 
                        .addField("<:fb:747575259129184376> Facebook ","**https://www.facebook.com/tpgamingofficial**")
                        .setColor("#3766bd")
-                       message.channel.send(embed).then(async msg => {
+                      message.author.send(embed).then(async msg => {
                         message.delete();
                         return;})
                         }
