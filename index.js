@@ -59,7 +59,7 @@ client.on("ready", () => {
   //client.user.setActivity("📈The Chat📉", {type: "WATCHING"});
 });
 //Státusz jelzés ---------------------------------------------------------
-
+/*
 client.on("ready", async () => {
 const valtozok = [
     "",
@@ -74,7 +74,7 @@ setInterval(function() {
 }, 3000);
 });
 
-
+*/
 //Státusz jelzés vége ----------------------------------------------------
 //client.user.setActivity("🔵 The Chat 🔴", {type: "WATCHING"});
 //parancsok ------------------------------------------------------------
