@@ -38,12 +38,11 @@ client.on("message", message => {
 
 client.on("message", message => {
   if (message.content.startsWith(prefix + "tagvagyok")) {
-      message.author.send("Szia ${message.author.toString()}! Gratulálok! Üdv a csapatba!!")
+      message.author.send(`Szia ${message.author.toString()}! Gratulálok! Üdv a csapatba!!`)
       message.author.send("Sok sikert kívánok a továbbiakban! Road To Global **TP4R**")
 	  message.author.send("A teendőd csak annyi, hogy beállítod a csapatot (**TP4R**) a neved elé és a képet betenni profilba!")
       message.author.send(`https://steamcommunity.com/groups/thepresidentsofficial`)
       message.author.send(`https://i.imgur.com/DU6vvCu.jpg`)
-      message.react('🔫')
 	  message.delete();
 
   }
