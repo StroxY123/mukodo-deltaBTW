@@ -30,7 +30,10 @@ client.on("message", message => {
   message.delete();
   message.member.addRole("748637866405396520")
   console.log("Csunya szót írtXD :: "+message.member.user.tag + " ");
-  message.author.send(`Az üzeneted törölve lett! Amit írtál annak egy vagy több szava benne volt a listába! Lista: "csunya", "kurva", "kurva anyád", "gyökér", "cigány", "bazdmeg", "paraszt", "kutya", "anyád", "balfasz", "baszott", "bazd", "fuck", "mother", "shit", "motherfucker", "fasz", "pina", "te retkes idota", "idiota", "faszopó", "köcsög", "bolond", "buzi", "nyomorék", "csicska", "bazd", "bazdmeg", "basz", "baszadék", "nyomo", "anyukád", "maradvány", "Kulák", "picsa"`);
+  message.author.send(`Az üzeneted törölve lett! Amit írtál annak egy vagy több szava benne volt a listába! Lista: 
+  
+  
+  **"csunya", "kurva", "kurva anyád", "gyökér", "cigány", "bazdmeg", "paraszt", "kutya", "anyád", "balfasz", "baszott", "bazd", "fuck", "mother", "shit", "motherfucker", "fasz", "pina", "te retkes idota", "idiota", "faszopó", "köcsög", "bolond", "buzi", "nyomorék", "csicska", "bazd", "bazdmeg", "basz", "baszadék", "nyomo", "anyukád", "maradvány", "Kulák", "picsa"**`);
   }
 });
 
