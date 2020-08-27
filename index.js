@@ -1,7 +1,6 @@
 const commando = require('discord.js-commando');
 const discord = require('discord.js');
 const moment = require('moment');
-const myRole = message.guild.roles.get("748637866405396520");
 moment.locale('hu')
 let prefix = "%"
 var client = new commando.Client ({
@@ -29,7 +28,7 @@ client.on("message", message => {
   }
   if (talalt) {
   message.delete();
-  message.member.addRole(myRole)
+  message.member.addRole("748637866405396520")
   console.log("Csunya szót írtXD :: "+message.member.user.tag + " ");
   message.author.send(`Az üzeneted törölve lett! Amit írtál annak egy vagy több szava benne volt a listába! Lista: "csunya", "kurva", "kurva anyád", "gyökér", "cigány", "bazdmeg", "paraszt", "kutya", "anyád", "balfasz", "baszott", "bazd", "fuck", "mother", "shit", "motherfucker", "fasz", "pina", "te retkes idota", "idiota", "faszopó", "köcsög", "bolond", "buzi", "nyomorék", "csicska", "bazd", "bazdmeg", "basz", "baszadék", "nyomo", "anyukád", "maradvány", "Kulák", "picsa"`);
   }
