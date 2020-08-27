@@ -15,10 +15,14 @@ client.login(process.env.token)
 
 client.on("message", message => {
   if (message.author.bot) return;
-  if (message.author.id === "") return;
-  if (message.author.id === "513735293132603403") return;
-  if (message.author.id === "674997482609967116") return;
-  if (message.author.id === "393380978766381061") return;
+  if (message.author.id === "417073375408816128") return;
+  if (message.author.id === "747570993035345981") return;
+  if (message.author.id === "326826478627061772") return;
+  if (message.author.id === "439537096408170516") return;
+  if (message.author.id === "603332310372450309") return;
+  if (message.author.id === "312614193234968577") return;
+  if (message.author.id === "449244344323538974") return;
+  if (message.author.id === "401101815753605142") return;
 
   let szavak = ["csunya", "kurva", "kurva anyád", "gyökér", "cigány", "bazdmeg", "paraszt", "kutya", "anyád", "balfasz", "baszott", "bazd", "fuck", "mother", "shit", "motherfucker", "fasz", "pina", "te retkes idota", "idiota", "faszopó", "köcsög", "bolond", "buzi", "nyomorék", "csicska", "bazd", "bazdmeg", "basz", "baszadék", "nyomo", "anyukád", "maradvány", "Kulák", "picsa"]
   let talalt = false;
