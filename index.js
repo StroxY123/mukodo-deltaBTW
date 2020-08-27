@@ -16,7 +16,7 @@ client.login(process.env.token)
 
 client.on("message", message => {
   if (message.author.bot) return;
-  if (message.author.id === "417073375408816128") return;
+  if (message.author.id === "") return;
   if (message.author.id === "513735293132603403") return;
   if (message.author.id === "674997482609967116") return;
   if (message.author.id === "393380978766381061") return;
