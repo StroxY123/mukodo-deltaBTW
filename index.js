@@ -47,11 +47,27 @@ client.on("message", message => {
   if (message.content.startsWith(prefix + "csapat")) {
       message.channel.send(`<:thepresidents:746715779629711362> 【ThePresident's】 <:thepresidents:746715779629711362>
       
-      ◣Tulajdonosok◥ 
+                            ◣Tulajdonosok◥ 
       
-      <:thepresidents:746715779629711362> @TheAdmin 🆃:parking:#6978 
-      <:thepresidents:746715779629711362> @TheDarkHell#5995
+      <:thepresidents:746715779629711362>  <@326826478627061772> 
+
+      <:thepresidents:746715779629711362>  <@439537096408170516>
+
+
+                            ◣Fejlesztő◥ 
       
+      <:cmd:752964206328021113>  <@417073375408816128>
+
+
+                            ◣Adminok◥ 
+      
+      <:ban:752965047424253981>  <@401101815753605142>
+
+      <:ban:752965047424253981>  <@449244344323538974>
+
+      <:ban:752965047424253981>  <@603332310372450309>
+
+      <:ban:752965047424253981>  <@312614193234968577>
       `)
 	  message.delete();
 
