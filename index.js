@@ -43,6 +43,21 @@ client.on("message", message => {
 
 //Moderáció vége -------------------------------------------------------
 
+client.on("message", message => {
+  if (message.content.startsWith(prefix + "csapat")) {
+      message.channel.send(`<:thepresidents:746715779629711362> 【ThePresident's】 <:thepresidents:746715779629711362>
+      
+      ◣Tulajdonosok◥ 
+      
+      <:thepresidents:746715779629711362> @TheAdmin 🆃:parking:#6978 
+      <:thepresidents:746715779629711362> @TheDarkHell#5995
+      
+      `)
+	  message.delete();
+
+  }
+});
+
 
 client.on("message", message => {
   if (message.content.startsWith(prefix + "tagvagyok")) {
