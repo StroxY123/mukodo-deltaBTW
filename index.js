@@ -76,6 +76,15 @@ client.on("message", message => {
 
 
 client.on("message", message => {
+  if (message.content.startsWith(prefix + "djleszek")) {
+      message.author.send(`Szia ${message.author.toString()}! Megkaptad a **◣DJ◥** rangot amivel mostmár tudsz indítani zenét a **Rythm** bottal`)
+      message.member.addRole("746707481778192414")
+	  message.delete();
+
+  }
+});
+
+client.on("message", message => {
   if (message.content.startsWith(prefix + "tagvagyok")) {
       message.author.send(`Szia ${message.author.toString()}! Gratulálok! Üdv a csapatba!!`)
       message.author.send("Sok sikert kívánok a továbbiakban! Road To Global **TP4R**")
