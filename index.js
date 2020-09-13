@@ -115,7 +115,7 @@ client.registry.registerCommandsIn(__dirname + "/commands");
 //Indulooo ---------------------------------------------------------------
 client.on("ready", () => {
   console.log(".");
-  //client.user.setActivity("📈The Chat📉", {type: "WATCHING"});
+  client.user.setActivity("🔴 Élőadás itt:", {type: "STREAMING", url:"https://www.twitch.tv/thepresidentsofficial"});
 });
 //Státusz jelzés ---------------------------------------------------------
 /*
