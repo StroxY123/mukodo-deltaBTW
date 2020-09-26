@@ -243,7 +243,7 @@ client.channel.get
 client.on("message", message => {
 if (message.content.toLowerCase() === prefix + 'gif') {
 const gifembed = new discord.RichEmbed()
-.addImage('https://i.imgur.com/OikeP9p.gif')
+.setImage('https://i.imgur.com/OikeP9p.gif')
 .setColor("#000000")
 message.author.send(gifembed).then(async msg => {
 message.delete();
